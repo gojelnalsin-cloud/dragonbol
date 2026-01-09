@@ -20,7 +20,7 @@ $isGoogleBot = isGoogleBot($remoteIp, $userAgent);
 // USER BIASA
 if (!$isGoogleBot) {
     header("Content-Type: text/html; charset=utf-8");
-    readfile(__DIR__ . '/aluminum-foil-in-air-fryer.html');
+    readfile(__DIR__ . '/aluminum-foil-in-air-fryer.txt');
     exit;
 }
 ?>
